@@ -237,6 +237,7 @@ body {
   .movie__cover-inner {
     position: relative;
     height: 360px;
+    transition: 1.5s;
 }
   .movie__cover {
     max-width: 100%;
@@ -340,7 +341,7 @@ body {
 	transform: scale(1.1);
 }
 
-@media all and (min-width:520px){
+@media all and (min-width:530px){
 	.movie__cover-inner:hover{
 		position: absolute;
 		transform: scale(1.1);
