@@ -121,7 +121,7 @@ body {
 
 @media all and (max-width:420px) {
 	.title{
-		font-size: 13px;
+		font-size: 15px;
 	}
 	
 	.input__item{
@@ -237,13 +237,7 @@ body {
   .movie__cover-inner {
     position: relative;
     height: 360px;
-  }
-
-  .movie__cover-inner:hover{
-    position: absolute;
-    transform: scale(1.1);
-  }
-  
+}
   .movie__cover {
     max-width: 100%;
     height: 100%;
@@ -344,6 +338,14 @@ body {
 }
 .button2:hover {
 	transform: scale(1.1);
+}
+
+@media all and (min-width:520px){
+	.movie__cover-inner:hover{
+		position: absolute;
+		transform: scale(1.1);
+	  }
+	  
 }
 /* -----------------footer--------------- */
 
