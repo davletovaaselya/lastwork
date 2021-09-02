@@ -241,6 +241,11 @@ body {
     position: relative;
     height: 360px;
   }
+
+  .movie__cover-inner:hover{
+    position: absolute;
+    transform: scale(1.1);
+  }
   
   .movie__cover {
     max-width: 100%;
