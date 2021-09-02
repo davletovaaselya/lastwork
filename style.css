@@ -131,10 +131,6 @@ body {
 }
 
 @media all and (max-width:350px){
-	.title{
-		font-size: 10px;
-	}
-
 	.input__item{
 		margin-left: 100px;
 		width: 80px;
